@@ -1,0 +1,7 @@
+li{
+    height: 50px;
+    background: azure;
+}
+.active{
+    background: red;
+}
