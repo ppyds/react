@@ -42,7 +42,6 @@ export default class tab extends Component {
             arr
         }
         this.clc = function (i) {
-            console.log(this)
             this.setState({
                 index: i
             })

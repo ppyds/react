@@ -1,13 +1,16 @@
-// import Md from './components/list'
 import Tab from './components/tab/'
-// let name = '哈哈';
+import Event from './components/event'
+import List from './components/listItemRemove'
+import Form from './components/form'
+// import 事件对象 from './components/事件对象'
 function App() {
     return (
         <div className="App">
-            {/*<h1>马大师</h1>*/}
-            {/*<p>{name}</p>*/}
-            {/*<Md/>*/}
-            <Tab/>
+            {/*<Tab/>*/}
+            {/*<Event/>*/}
+            {/*<List/>*/}
+            {/*<事件对象/>*/}
+            <Form/>
         </div>
     );
 }

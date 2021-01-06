@@ -1,0 +1,11 @@
+span{
+    width: 100px;
+    display: inline-block;
+}
+.list{
+    padding-left: 60px;
+}
+.list span{
+    width: 2em;
+    margin-left: 40px;
+}

@@ -1,0 +1,22 @@
+.cover{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,.3);
+    display: none;
+    position: fixed;
+    top: 0;
+}
+.cover.active{
+    display: block;
+}
+.cover .con {
+    width: 300px;
+    padding: 50px 0;
+    text-align: center;
+    background: #fff;
+    border-radius: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
